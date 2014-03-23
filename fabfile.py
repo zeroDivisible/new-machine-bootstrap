@@ -28,21 +28,21 @@ def tab_brews():
     with open(BREW_CONFIG_DIR + 'taps.txt', 'r') as f:
         taps = f.read().splitlines()
         for tap in taps:
-            run(BREW + 'tap ' + tap)
+            run('%s tap %s ' % (BREW, tap))
 
 @task
 def install_brew_apps():
     with open(BREW_CONFIG_DIR + 'tools.txt', 'r') as f:
         tools = f.read().splitlines()
         for tool in tools:
-            run(BREW + 'install ' + tool)
+            run('%s install %s ' % (BREW, tool))
 
 @task
 def npm_install_global():
     with open(NPM_CONFIG_DIR + 'global-tools.txt', 'r') as f:
         tools = f.read().splitlines()
         for tool in tools:
-            run(NPM + 'install -g --upgrade ' + tool)
+            run('%s install -g --upgrade %s' % (NPM, tool))
 
 
 def bootstrap():
