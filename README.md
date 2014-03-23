@@ -6,7 +6,7 @@ Those are just some basic scripts to ease the pain of setting up a new machine.
 
 **Question:** why you didn't just use [chef](http://www.getchef.com/), [puppet](https://puppetlabs.com/) or [ansible](http://www.ansible.com/home)?
 
-**Anwser:** because I had been using them (well, ``chef`` and ``ansible`` at least) for other projects, and never tried ``fabric``. Might as well give it a shot.
+**Anwser:** because I had been using them (well, ``chef`` and ``ansible`` at least) for other projects, and never tried ``fabric``. Yes, ``fabric`` is not a provisioning tool, but it looked simple enough that it might in fact get the job done. And it did.
 
 ---
 
