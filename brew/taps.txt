@@ -1,0 +1,8 @@
+homebrew/binary
+homebrew/dupes
+homebrew/games
+jenv/jenv
+joelcogen/macvimsplitbrowser
+nviennot/tmate
+phinze/cask
+pivotal/tap
