@@ -8,6 +8,12 @@ Steps:
 
 1. clone this repo
 
-1. run ``fab``
+1. **OSX only** make sure that remote login is allowed (``System Preferences`` / ``Sharing`` / ``Remote Login``)
+
+1. to bootstrap localmachine run
+
+    ```
+    fab -H localhost TASK_NAME
+    ```
 
 
