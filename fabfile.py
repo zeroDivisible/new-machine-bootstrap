@@ -1,6 +1,5 @@
 from fabric.api import task, run, execute
 
-
 BREW = '/usr/local/bin/brew '
 BREW_CONFIG_DIR = 'brew/'
 
@@ -11,7 +10,6 @@ NPM_CONFIG_DIR = 'npm/'
 def install_homebrew():
     run('ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"')
     run(BREW + ' install phinze/cask/brew-cask')
-
 
 @task
 def update_brew():
