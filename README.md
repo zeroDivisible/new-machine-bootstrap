@@ -1,6 +1,6 @@
 Those are just some basic scripts to ease the pain of setting up a new machine.
 
-(as of right now, because I'm using MBP, those are prepared to run on a new MacBook - next step is to prepare those for Archlinux)
+(as of right now, because I'm using MBP, those are prepared to run on a new MacBook - next step is to prepare those for ArchLinux, but because Arch is running on this machine for few years without failure, I'll customize those, once Arch fails and I'll be setting it up againt)
 
 ===
 
