@@ -1,0 +1,24 @@
+[user]
+	name = zerodivisible
+	email = zerodivisible@gmail.com
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/zerodi/.gitignore_global
+	editor = mvim -f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[diff]
+	renames = copies
+[branch]
+	autosetupmerge = true
+[rerere]
+	enabled = true
